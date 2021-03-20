@@ -27,7 +27,7 @@ nav ul, li, a {
 	text-decoration: none;
 }
 
-.active {
+.active-header {
 	border-bottom: 7px solid blue;
 
 }
