@@ -27,9 +27,8 @@ nav ul, li, a {
 	text-decoration: none;
 }
 
-.active-header {
-	border-bottom: 7px solid blue;
-
+.active-nav {
+	border-top: 7px solid blue;
 }
 
 footer {

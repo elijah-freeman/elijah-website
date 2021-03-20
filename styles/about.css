@@ -26,6 +26,10 @@ section:first-child h1:hover {
 	cursor: pointer;
 }
 
+.active-header {
+	border-bottom: 7px solid blue;
+}
+
 .about {
 	margin: 0;
 	padding: 0;
