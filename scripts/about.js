@@ -18,13 +18,13 @@ const headerParagraphLink = {
 }
 
 function selectHeaderParagraph(e) {
-	headerParagraphLink[e.srcElement.id]['header'].classList.add('active-header');
-	headerParagraphLink[e.srcElement.id]['paragraph'].classList.add('display-p');
+	headerParagraphLink[e.target.id]['header'].classList.add('active-header');
+	headerParagraphLink[e.target.id]['paragraph'].classList.add('display-p');
 }
 
 function deselectHeaderParagraph(e) {
 	for (const pair in headerParagraphLink) {
-		if (headerParagraphLink[pair]['header'].id !== e.srcElement.id) {
+		if (headerParagraphLink[pair]['header'].id !== e.target.id) {
 			headerParagraphLink[pair]['header'].classList.remove('active-header');
 			headerParagraphLink[pair]['paragraph'].classList.remove('display-p');
 		}
