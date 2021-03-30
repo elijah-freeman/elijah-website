@@ -1,0 +1,29 @@
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.project-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid black;
+	height: 600px;
+	width: 500px;
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.right {
+	margin: 200px 10px 200px 10px;
+}
+
+.cover-img {
+	width: 300px;
+	height: 250px;
+}
