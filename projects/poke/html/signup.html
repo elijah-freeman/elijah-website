@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="../style/app.css">
+    <link rel="stylesheet" href="../style/signup.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto+Mono:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<nav>
+    <ul id="nav-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+    </ul>
+    <ul id="nav-right">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="cart.html">Cart</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Sign Up</h1>
+</header>
+
+<main>
+    <section>
+        <img src="../res/signup-poke-bowl.jpg" alt="10 Sauces place in a circle around circular table. Sign up image.">
+        <h2>Welcome to Poke Restaurant!</h2>
+    </section>
+
+    <section>
+        <label for="first-name">Enter your first name</label>
+        <input id="first-name" name="first-name" type="text" placeholder="First name" required>
+        <label for="last-name">Enter your last name</label>
+        <input id="last-name" name="last-name" type="text" placeholder="Last name" required>
+        <label for="email">Enter your email address</label>
+        <input id="email" name="email" type="email" placeholder="Email address" required>
+        <label for="password">Enter a password</label>
+        <input id="password" name="password" type="password" placeholder="Password" required minlength="6">
+        <label for="username">Enter your username</label>
+        <input id="username" name="first-name" type="text" placeholder="Username" required>
+
+    </section>
+
+    <section class="register-section">
+        <button>Register</button>
+        <h3 id="success-register">Thank you for Registering with Poke Restaurant. On your next visit, please use your email as your username when logging in.</h3>
+        <h3 id="failure-register">Uh oh! We must of missed some information. Please try again.</h3>
+    </section>
+</main>
+
+<footer>
+    <ul>
+        <li>
+            <span>Photo by <a href="https://unsplash.com/@jonathanborba?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jonathan Borba</a> on <a href="https://unsplash.com/s/photos/poke?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        </li>
+    </ul>
+</footer>
+
+<script src="../script/signup.js"></script>
+</body>
+</html>

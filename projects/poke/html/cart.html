@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="../style/app.css">
+    <link rel="stylesheet" href="../style/cart.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto+Mono:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <ul id="nav-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order</a></li>
+    </ul>
+    <ul id="nav-right">
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="cart.html">Cart</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Cart</h1>
+</header>
+
+<main>
+    <section class="cart-information">
+        <h2 id="cart-summary">Cart Summary</h2>
+        <h3 id="cart-empty-message">It looks like you don't have anything in your cart. Would you like to order something?</h3>
+        <button id="order-button">Order</button>
+        <div id="main-order-container"></div>
+        <button id="order-more">Order More</button>
+    </section>
+
+    <section class="payment-container">
+        <div class="final-total">
+            <h3 id="total">Total</h3>
+            <h3 id="h3-final-total"></h3>
+        </div>
+        <div id="payment-inside-container">
+            <h3 id="payment-info-title">Payment Information</h3>
+            <label for="name-on-card">Enter the name on payment card</label>
+            <input id="name-on-card" class="payment" type="text" placeholder="Name on Card">
+            <label for="card-number">Enter card number</label>
+            <input id="card-number" class= "payment" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
+            <div class="payment-info">
+                <div class="payment-info-div">
+                    <label for="card-expiration">Enter card expiration</label>
+                    <input id="card-expiration" class="payment" type="month" min="1970-01" max="2050-01">
+                </div>
+                <div class="payment-info-div">
+                    <label for="card-code">Enter card security code</label>
+                    <input id="card-code" class="payment" type="text" min="3" placeholder="CVC">
+                </div>
+            </div>
+            <label for="payment-postal">Enter the postal code for card billing</label>
+            <input id="payment-postal" class="payment postal" type="text" placeholder="Postal code">
+        </div>
+        <button id="place-order">Place Order</button>
+    </section>
+
+    <section class="success-order-container">
+        <h2 id="successful-order">Order Successful. Enjoy your Poke!</h2>
+    </section>
+</main>
+
+<footer>
+    <ul>
+        <li></li>
+    </ul>
+</footer>
+
+<script src="../script/cart.js"></script>
+</body>
+</html>

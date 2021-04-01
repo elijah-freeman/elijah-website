@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #edf6f9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+    color: black;
+}
+
+
+
+h2, h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    padding-bottom: 10px;
+    /*border-bottom: 1px solid #a5a58d;*/
+    margin-bottom: 0;
+    text-align: center;
+    background-color: rgba(200, 229, 226, 0.4);
+}
+
+h4 {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+label {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul, li {
+    display: inline;
+    margin: 2px;
+    padding: 2px;
+}
+
+#nav-left {
+    flex: 1;
+    display: flex;
+    max-width: 35%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#nav-right {
+    flex: 1;
+    display: flex;
+    max-width: 35%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+button {
+    color: black;
+    background: rgba(179, 217, 230, 0.6) none;
+    border: 2px solid #006d77;
+    border-radius: 20px;
+    padding: 1em 2em;
+    font-size: 2em;
+    min-width: 200px;
+    min-height: 100px;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+button:hover {
+    border-color: #00cee0;
+    background-color: rgba(179, 217, 230, 0.3);
+    color: #006d77;
+    box-shadow: 0 0.5em 0.5em -0.4em #00cee0;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    /*box-shadow: x-offset y-offset blur-radius blur radius color*/
+}
+
+footer {
+    margin: 20px;
+    border-top: 1px solid #a5a58d;
+}
+
+footer ul {
+    margin-top: 50px;
+}
+footer a {
+    color: black;
+}
+
+@media (max-width: 512px) {
+    #nav-left {
+        max-width: 25%;
+    }
+    #nav-right {
+        max-width: 25%;
+    }
+}
