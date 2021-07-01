@@ -1,0 +1,127 @@
+.main-menu {
+    width: 760px;
+    height: 760px;
+    background-color: rgba(40, 40, 40, 0.9);
+    margin-left: 10px;
+    margin-top: 2px;
+    position: absolute;
+    left: 10px;
+    border: 1px solid rgba(40, 40, 40, 0.9);
+    display: none;
+    flex-direction: column;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 30px;
+    padding: 0 30px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    bottom: 10px;
+    background-color: rgba(40, 40, 40, 0);
+    margin-bottom: 5px;
+}
+
+p {
+    background-color: rgba(40, 40, 40, 0);
+    text-align: center;
+}
+
+
+button {
+    color: black;
+    background: rgba(228, 230, 235, 0.5) none;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 300px;
+    height: 60px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#player-display {
+	border: none;
+	position: relative;
+	left: 23px;
+	width: 250px;
+	height: 300px;
+}
+
+#player-1 {
+	font-size: 2em;
+}
+
+#player-img {
+	width: 200px;
+	height: 200px;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.enemy-powerup-container {
+	position: relative;
+	right: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#powerup-btn {
+	position: relative;
+}
+
+.controls-levels-container {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#paused-label {
+    display: none;
+}
+
+/*#control-btn {*/
+/*    position: relative;*/
+/*    top: 300px;*/
+/*    align-self: center;*/
+/*}*/
+
+
+#play-info {
+    position: relative;
+    font-size: 1.7em;
+    top: 100px;
+    align-self: center;
+}
+
+#pause-info {
+	display: none;
+    position: relative;
+    font-size: 1.7em;
+    top: 90px;
+    align-self: center;
+}
+
+#credits {
+    position: relative;
+    top: 100px;
+    align-self: center;
+}

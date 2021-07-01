@@ -1,0 +1,15 @@
+section:first-child {
+	position: relative;
+	left: 250px;
+	top: 150px;
+	width: 500px;
+	height: auto;
+}
+
+footer {
+	position: relative;
+	top: 470px;
+}
+
+
+
