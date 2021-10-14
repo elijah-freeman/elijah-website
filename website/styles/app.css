@@ -22,7 +22,7 @@ nav ul, li {
 	margin: 5px;
 	padding: 5px;
 }
-/* Possible to delete duplicated */
+
 nav ul, li, a {
 	text-decoration: none; 
 }
